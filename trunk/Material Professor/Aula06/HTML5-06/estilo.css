@@ -1,0 +1,408 @@
+
+
+/*Compatibilidade com as versoes 7, 8, 9 do IE aceitam @font-face apenas se for EOT*/
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('fontes/quicksand_bold-webfont.eot');
+    src: url('fontes/quicksand_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/quicksand_bold-webfont.woff') format('woff'),
+         url('fontes/quicksand_bold-webfont.ttf') format('truetype'),
+         url('fontes/quicksand_bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbook';
+    src: url('fontes/quicksand_book-webfont.eot');
+    src: url('fontes/quicksand_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/quicksand_book-webfont.woff') format('woff'),
+         url('fontes/quicksand_book-webfont.ttf') format('truetype'),
+         url('fontes/quicksand_book-webfont.svg#quicksandbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('fontes/quicksand_light-webfont.eot');
+    src: url('fontes/quicksand_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/quicksand_light-webfont.woff') format('woff'),
+         url('fontes/quicksand_light-webfont.ttf') format('truetype'),
+         url('fontes/quicksand_light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin:0;
+	background-image:url(img/bg.png);
+	background:-webkit-linear-gradient(left, #DFEAEC, #FFF 13%);
+	background:-moz-linear-gradient(left, #DFEAEC, #FFF 13%);
+	background:linear-gradient(left, #DFEAEC, #FFF 13%);
+	border-top:solid 2px #29C7E8;	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:100%;
+}
+
+.container {
+	max-width:980px;/*até 980px*/
+	overflow:auto;
+	margin:auto;	
+	width:90%;	
+}
+
+header {
+	width:100%;
+	float:left;	
+	margin:0;
+}
+header h1 a {
+	background:url(img/logo.png) no-repeat;
+	display:block;
+	height:121px;
+	width:219px;
+	text-indent:-99999px;
+	float:left;
+	margin:0;	
+	cursor:pointer;
+}
+
+nav ul li{
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+
+nav a {
+	margin-left:15px;
+	text-decoration:none;
+	text-transform:capitalize;
+	font-size:18px;
+	color:#C0BEC0;
+	line-height:22px;
+	font-family: 'quicksandbold';
+}
+
+nav a:hover {
+	color:#29C7E8;	
+}
+
+nav {
+	float:right;
+	margin-top:45px;	
+}
+
+
+
+#banner {
+	float:left;
+	width:100%;
+	margin-bottom:0;
+}
+
+#banner img {
+	width:100%;
+	float:left;
+	
+}
+
+#banner2 {
+	display:none;	
+	
+}
+
+.separa {
+	width:100%;
+	background-color:#0FF;
+	height:1px;	
+	background-image:url(img/separa.png);
+	background:-webkit-linear-gradient(right, #9FE6F4, #FFF 95%);
+	background:-moz-linear-gradient(right, #9FE6F4, #FFF 95%);
+	background:linear-gradient(left, #9FE6F4, #FFF 95%);
+	float:left;
+	display:block;
+	margin:0;
+}
+
+#conteudo {
+	width:70%;
+	float:left;
+	min-height:400px;
+	margin-top:50px;
+	padding:0 1% 10% 1%;
+	/*background:#030;*/	
+}
+
+.titulo {
+	margin:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:25px;	
+	color:#4E5859;
+	line-height:30px;
+}
+
+p {
+	color:#9DA6A7;
+	font-size:13px;
+	font-weight:400;/*espessura dos traços*/
+	margin:10px 0 0 0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;	
+	line-height:16px;
+}
+
+.saibamais {
+	color:#26C5E5;
+	font-weight:400;
+	font-size:13px;
+	line-height:16px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;		
+}
+aside {
+	width:25%;
+	min-height:400px;
+	float:right;
+	margin-top:50px;
+	padding:0 1% 5% 1%;
+	background:#F7FAFA;	
+}
+
+aside p {
+	line-height:17px;	
+}
+
+.color {
+	color:#27C5E6;
+}
+
+figure {
+	margin:20px 0 0 0;
+}
+.left {
+	float:left;	
+}
+.right {
+	float:right;	
+}
+figcaption {
+	color:	#6ED6EB;
+	font-size:13px;
+	line-height:16px;	
+}
+footer {
+	width:100%;
+	float:left;
+	height:100px;
+	
+	/*background:#69C;*/	
+}
+
+
+footer p {
+	margin:65px 0 0 320px; 
+	float:left;	
+}
+
+span {
+	color:#80DAED;	
+}
+
+footer ul {
+	margin:30px 0 0 0px;
+	padding:0;
+	list-style-type:none;
+	float:right;
+}
+
+footer li {
+	float:left;
+}
+
+
+@media screen and (max-width: 800px) {/*table na vertical -> opcao 800px*/
+		body {
+			margin:0;
+			background:-webkit-linear-gradient(left, #DFEAEC, #FFF 5%);
+			background:-moz-linear-gradient(left, #DFEAEC, #FFF 5%);
+			background:linear-gradient(left, #DFEAEC, #FFF 5%);
+			border-top:solid 2px #29C7E8;	
+			font-family:Tahoma, Geneva, sans-serif;
+		}
+		header nav {
+			float:right;
+			margin:50px 0 0 0;	
+			
+		}
+		
+		#conteudo {
+			width:50%;	
+			
+		}
+		
+		heeader nav a {
+			font-size:14px;
+			margin-left:5px;	
+			
+		}
+		
+		figcaption {
+			font-size:11px;	
+			
+		}
+		
+		
+		aside {
+			width:40%;
+			float:right;
+			min-height:600px;	
+			padding:2%;
+			
+		}
+		
+		.right {
+			float:left;	
+		}
+	
+		footer {
+			background:#0F0;	
+			
+		}
+	
+}
+
+
+@media screen and (max-width: 480px) {
+	
+		header nav {
+		
+			margin:10px 0 10px 0;	
+			width:100%;
+		
+		}
+		
+		
+	
+		#banner {
+		display:none;	
+		
+		}
+		#banner2 {
+		display:block;	
+		
+		}
+	
+		nav {
+		width:100%;
+		text-align:center;	
+		
+		}
+	
+		footer {
+		background-color:#000;	
+		}
+	
+		footer p {
+			margin:65px 0 0 4px;
+			float:left;
+			font-size:10px;
+		}
+		footer img {
+			width:40px;
+			height:40px;
+			margin:20px 0 0 0;	
+		}
+	
+	
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+		header nav, article, figure, footer {
+			float:left;
+			clear:left;	
+			margin:0 0 10px;
+			width:100%;
+			
+		}
+		
+		#banner {
+			display:none;
+		}
+		
+		
+		#banner2 {
+			display:block ;	
+		}
+		
+		header ul {/*zera o recuo padrao*/
+			margin:	0;
+			padding:0;
+			
+		}
+		
+		header nav li {
+			margin:0;
+			background-color:#000;	
+			background:-webkit-linear-gradient(left, #DFEAEC, #FFF 13%);
+			background:-moz-linear-gradient(left, #DFEAEC, #FFF 13%);
+			background:linear-gradient(left, #DFEAEC, #FFF 13%);
+			display:block;
+			margin-bottom:4px;
+			border:1px solid #EEF4F6;
+		}
+		
+		.saibamais {
+			display:block;
+			margin-bottom:10PX;	
+		}
+		
+		header nav a {
+			display:block;
+			padding:10px;
+			text-align:center;	
+			
+			
+		}
+		
+		#conteudo {
+			margin-bottom:0;
+			float:left;
+			clear:left;
+			width:100%;	
+			
+		}
+		
+		aside {
+			width:90%;
+			margin:0 0 10px 0;
+			float:right;
+			background-color:#F7FAFA;
+			padding:5%;	
+			
+		}
+		
+		nav ul {/*distancia para o topo*/
+			margin-top:20px;	
+		}
+		
+		footer p {
+			margin:65px 0 0 4px;
+			float:left;
+			font-size:10px;
+		}
+		footer img {
+			width:40px;
+			height:40px;
+			margin:20px 0 0 0;	
+		}
+		
+		footer {
+			background-color:#F00;	
+		}
+	
+	
+}

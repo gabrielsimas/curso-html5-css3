@@ -1,0 +1,100 @@
+body {
+	margin:0;
+	background:#FFF;	
+}
+
+#container {
+	margin:auto;
+	max-width:960px; /*até 960px*/
+	overflow:auto;
+}
+
+#topo {
+	width:100%;
+	height:150px;
+	float:left;
+	background-color:#666;	
+	margin-bottom:40px;
+	background:url(fundo.png) repeat-x;/*fall back*/
+	background:linear-gradient(to bottom, #FFF, #999999);/*Opera, IE10, FF -> recomendação canditada da w3c)*/
+	background:-webkit-linear-gradient(top, #FFF, #999999);/*chrome , safari, (Iphone, Iped), android*/
+}
+
+#col_esq {
+	width:180px;
+	padding:10px;
+	min-height:470px;
+	float:left;
+	background-color:#666;
+}
+
+#principal {
+	width:520px;	
+	padding:10px;
+	min-height:470px;
+	float:left;
+	margin-left:10px;
+	background-color:#666;
+}
+
+#artigo {
+	width:100%;
+	float:left;
+	min-height:470px;
+	/*background-color:#333;*/
+}
+
+#topo_art {
+	width:100%;
+	height:40px;
+	float:left;
+	margin-bottom:10px;	
+}
+
+#rodape_art {
+	width:100%;
+	height:40px;
+	float:left;
+	margin-top:10px;	
+}
+
+
+#col_dir {
+	width:180px;
+	padding:10px;
+	min-height:470px;
+	float:right;
+	background-color:#666;	
+}
+
+ul {
+	list-style-type:none;/*retiro os itens da lista*/	
+	margin:0;
+	padding:0;
+}
+
+li {
+	margin-top:10px;
+	margin-left:5px;
+	padding-left:15px;
+	border-bottom:1px solid #EEE;	
+	background:url(item.png)no-repeat 0 50% ;
+}
+
+#col_dir a {
+	text-decoration:none;
+	color:#333;
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;	
+	margin-bottom:5px;
+	text-transform:capitalize;/*primeira letra de cada palavra em caixa alta*/
+}
+
+#rodape {
+	width:100%;
+	height:50px;
+	float:left;
+	background-color:#666;	
+	margin-top:40px;	
+	
+}
