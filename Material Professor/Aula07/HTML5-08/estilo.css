@@ -1,0 +1,213 @@
+body {
+	margin:0;
+	background: url(imagens/bg.png) #000;
+	font:14px  Helvetica, sans-serif, Arial;
+	line-height:22px;
+	color:#929292;
+}
+
+a {/*todos os links*/
+	color:#abe2ff;
+	text-decoration:none;	
+}
+
+a:hover {
+	color:#5bd5e3;	
+}
+
+img {
+	border:none;	
+}
+
+#container {
+	max-width:960px;
+	margin:0 auto 24px auto;
+	overflow:hidden;
+	background-color:#000;
+	box-shadow:0 10px 45px #343434;	
+}
+
+header {
+	width:100%;
+	height:150px;
+	float:left;
+	background:#000;
+	background:linear-gradient(to bottom, #000 0%,#191919 5%,#000 70%,#191919 90%, #000 100%);
+	background:-webkit-linear-gradient(top ,#000 0%,#191919 5%,#000 70%,#191919 90%, #000 100%);
+	
+}
+
+header h1 a {
+	margin:34px 0 0 21px;
+	float:left;
+	background:url(imagens/logo.png) no-repeat;
+	width:217px;
+	height:46px;
+	text-indent:-9999em;	
+}
+
+header nav {
+	float:left;
+	margin:48px 0 15px 0;	
+}
+
+header ul li {
+	float:left;
+	list-style:none;
+	margin:0 0 0 48px;
+	padding:0;	
+}
+
+header nav a {
+	text-transform:uppercase;	
+}
+
+
+#principal {
+	float:right;
+	width:100%;
+	overflow:hidden;
+	margin:0 0 48px 0;
+	background:linear-gradient(to bottom,#000 94%, #191919 94%,#000 100%);
+	background:-webkit-linear-gradient(top ,#000 94%, #191919 94%,#000 100%);		
+}
+
+#principal img {
+	float:right;
+	margin:10px 0 25px 0;
+	width:48%;	
+}
+
+#principal-info {
+	float:left;
+	width:35%;
+	margin:90px 0 0 30px;	
+}
+
+#principal h1 {
+	width:320px;
+	height:30px;
+	margin:0 0 30px 0;
+	background:url(imagens/hydrotek.png) no-repeat;
+	text-indent:-9999em;	
+}
+
+#principal-info p {
+	margin: 0 0 34px 0;
+	font-size:16px;	
+}
+
+#principal-info p.btn a {/*formatação do botao*/
+	display:block;
+	width:190px;
+	height:35px;
+	background:#497389;
+	background:linear-gradient(to bottom, #497389 , #151e36);
+	background:-webkit-linear-gradient(top ,#497389 , #151e36);
+	border-radius:5px;/*vale para todos os cantos*/
+	-webkit-border-radius:5px;/*vale para todos os cantos*/
+	text-transform:uppercase;
+	text-align:center;
+	padding:12px 0 0 0;
+}
+
+#conteudo {
+	width:100%;
+	min-height:400px;
+	float:left;	
+}
+
+.box {
+	width:22%;
+	float:left;
+	height:360px;
+	margin:0 0 48px 23px;
+	border:solid 1px #262626;
+	background:#000;
+	background:linear-gradient(to bottom,#000 0%, #191919 0%,#000 0%, #191919 40%, #000 100%);
+	background:-webkit-linear-gradient(top ,#000 0%, #191919 0%,#000 0%, #191919 40%, #000 100%);	
+}
+.box:first-child {/*primeiro filho do seu elemento pai*/
+	margin:0 0 0 20px ;	
+}
+
+
+#conteudo .sun, #conteudo .sport, #conteudo .tech, #conteudo .especial {
+	display:block;
+	width:100%;
+	height:144px;
+	margin:0 0 30px 0;
+	text-indent:-9999em;	
+}
+
+#conteudo .sun {
+	background:url(imagens/sun.jpg) no-repeat;
+}
+#conteudo .sport {
+	background:url(imagens/sport.jpg) no-repeat;
+}
+#conteudo .tech {
+	background:url(imagens/tech.jpg) no-repeat;
+}
+#conteudo .especial {
+	background:url(imagens/especial.jpg) no-repeat;
+}
+
+#conteudo .especial:hover {
+	/*-webkit-filter:grayscale(50%);*/
+	-webkit-filter:contrast(150%);
+	}
+#conteudo .tech:hover {
+	-webkit-filter:grayscale(50%);
+	}
+
+#conteudo .box p {
+	margin:0 0 24px 0;
+	padding:0 10px 0 10px;	
+}
+
+
+footer {
+	width:100%;
+	float:left;
+	height:60px;
+	font-size:12px;	
+}
+
+.copyright {
+	float:left;
+	margin:0 0 0 22px;	
+}
+
+footer ul {
+	float:left;
+	margin:0 0 0 134px;	
+	list-style-type:none;
+	padding:0;
+}
+
+footer li {
+	float:left;
+	margin:0 10px 0 10px;	
+	padding:0;
+}
+
+.inicio {
+	float:right;
+	margin:0 22px 0 0;	
+}
+
+.inicio a {
+	background:url(imagens/optik-logo-sm.png) no-repeat;
+	padding:5px 0 5px 40px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+body {
+	background-color:#FFF;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666;	
+	
+}
+
+ul, li, a {
+	margin:0;
+	padding:0;	
+}
+
+/*estrutura*/
+
+#container {
+	max-width:920px;
+	margin:auto;
+	width:96%;	
+}
+
+#banner img {
+	width:100%;
+	float:left;
+	margin-bottom:15px;	
+	
+}
+
+#principal {
+	width:60%;
+	float:left;
+	margin-right:15px;	
+}
+aside {
+	width:35%;
+	float:right;	
+	
+}
+
+aside p {
+	font-style:italic;
+	font-size:12px;
+	line-height:15px;	
+	
+}
+
+header h1 {
+	
+	height:90px;
+	width:200px;
+	float:left;
+	background:url(imagens/logo.jpg) no-repeat;
+	text-indent:-9999px;
+	display:block;
+	
+}
+
+header nav {
+	float:right;
+	margin-top:70px;	
+	
+}
+
+header nav li {
+	display:inline-block;
+	margin-left:10px;	
+
+}
+
+header nav a{
+	color:#000;
+	font-weight:bold;
+	text-transform:uppercase;	
+}
+
+
+@media screen and (max-width:480px){
+	
+	header nav, #principal, aside {
+		float:left;
+		margin:0 0 10px;
+		width:100%;
+		
+	}
+	
+	header nav li {
+		margin:0;
+		background-color:#666;
+		display:block;
+		margin-bottom:3px;	
+		
+	}
+	
+	header nav a {
+		margin:0;
+		padding:10px;
+		display:block;
+		text-align:center;
+		
+	}
+	
+	header h1 {
+	
+	height:45px;
+	width:100px;
+	float:left;
+	background:url(imagens/logo2.jpg) no-repeat;
+	text-indent:-9999px;
+	display:block;
+	
+}
+
+	
+	
+}
+
+
+
+

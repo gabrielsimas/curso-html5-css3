@@ -1,0 +1,299 @@
+body {
+	background:#FFF;
+	margin:0;	
+}
+
+.container {
+	margin:auto;
+	width:980px;	
+}
+
+.container_inf {
+	margin:auto;
+	width:980px;
+	overflow:auto;
+	padding-bottom:80px;	
+	border-bottom:solid #ddd 1px;
+}
+
+
+.topo {
+	width:100%;/*acompanha 100% de qualquer resolução*/	
+	height:200px;
+	float:left;
+	background:#F60;
+	background:linear-gradient(to bottom, #FFA64D , #FF954E);/*recomendacao w3c -> IE-10 , FIRE FOX , OPERA*/
+	background:-webkit-linear-gradient(top, #FFA64D , #FF954E);
+}
+
+h1.logo a {
+	width:216px;
+	height:121px;
+	float:left;
+	margin-top:17px;
+	/*background:#CCC;*/
+	background:url(img/logo.png) no-repeat;	
+	text-indent:-9999px;
+}
+
+.topo h2 {
+	font-size:15px;
+	font-style:italic;
+	color:#FFF;
+	float:left;
+	margin:56px 0 0 10px;	
+}
+
+
+.menu_sup {
+	width:100%;
+	height:50px;
+	float:left;
+	background-color:#FC0;	
+	background:linear-gradient(to bottom, #FFA952 , #FF8D4C);/*recomendacao w3c -> IE-10 , FIRE FOX , OPERA*/
+	background:-webkit-linear-gradient(top, #FFA952 , #FF8D4C);
+}
+
+.banner {
+	width:100%;
+	float:left;
+	/*background-color:#C96;	*/
+}
+.banner img {
+	width:100%;
+}
+
+.conteudo {
+	width:100%;
+	float:left;
+	background:#FBF8F3;
+	min-height:800px;	
+}
+.noticias {
+	width:70%;
+	min-height:800px;
+	float:left;
+	/*background-color:#F30;	*/
+}
+article {
+	width:100%;
+	min-height:220px;
+	float:left;
+	margin:70px 0 30px 0;
+	background:url(img/labrador.jpg) no-repeat right;
+	border-bottom:1px solid #DDDDDD;	
+	padding-bottom:20px;
+}
+
+article p {
+	color:#99837B;
+	font-weight:400;
+	font-family:"Century Gothic", Arial, Verdana;
+	font-size:15px;
+	line-height:22px;
+	width:430px;
+	margin:10px 0 0 15px;
+}
+.texto_resumo {
+	font-size:13px;
+	width:auto;
+	
+}
+.titulo {
+	color:#8A514A;
+	font-weight:400;
+	font-size:30px;
+	line-height:36px;
+	font-family:Calibri, Arial, Verdana	;
+	width:400px;
+	margin:0 0 0 15px;
+}
+
+.titulo_art {
+	color:#FF9F41;
+	font-size:20px;
+	margin:10px 0 0 0 ;
+	font-family:Calibri, Arial, Verdana;
+	font-weight:400;
+	line-height:26px;	
+}
+
+.left {
+	float:left;	
+	margin:10px 25px 0 15px;
+	border:solid #E2CDA9 5px;
+}
+
+article a {
+	background:#FFA042;	
+	text-decoration:none;
+	color:#FFF;
+	padding:10px 20px 10px 20px;
+	font-size:18px;
+	font-family:"Century Gothic", Arial, Verdana;
+	margin:40px 0 0 15px;
+	float:left;
+}
+.artigo {
+	width:100%;
+	min-height:180px;
+	float:left;
+	margin-top:0;
+	border-bottom:1px solid #DDDDDD;	
+	background:none;
+}
+
+.artigo:last-child {/*ultimo filho do seu elementop pai*/
+	border:none;	
+}
+.coluna {
+	width:28%;
+	min-height:800px;
+	float:left;
+	margin-top:70px;
+	/*background-color:#999;	*/
+}
+
+.box {
+	width:100%;
+	min-height:330px;
+	background:#FFA042;
+	float:left;
+	margin-bottom:20px;	
+}
+
+.titu_aside {
+	font-family:Calibri, Arial, Verdana;
+	font-size:32px;
+	font-style:italic;
+	color:#FFF;
+	margin:0;
+	padding-left:25px;
+	background:#FFBE7D;
+	line-height:60px;
+	font-weight:400;	
+}
+
+.img_aside {
+	margin:30px 25px 0 25px;	
+}
+.inferior {
+	width:100%;
+	min-height:220px;
+	background-color:#FFF;
+	float:left;	
+	margin-top:46px;
+	
+}
+
+.lista {
+	width:24%;
+	margin-right:2px;
+	float:left;	
+}
+
+.lista ul {
+	list-style-type:none;
+	margin:0 0 0 3px;
+	padding:0;	
+}
+
+.lista a {
+	color:#9A837C;
+	padding-left:15px;
+	background:url(img/lista.png) no-repeat 0 50%;
+	font-family:"Century Gothic", Arial, Verdana;
+	font-size:13px;	
+}
+.lista a:hover {
+	text-decoration:none;
+}
+.lista li {
+	margin: 0 0 10px 0;	
+	
+}
+
+.lista h3 {
+	color:#AD5E41;
+	font-family:"Century Gothic", Arial, Verdana;
+	font-size:18px;
+	margin:0 0 10px 0;
+	font-weight:700;	
+}
+
+.estilo_news {
+	font-style:italic;
+	color:#9A837C;
+	font-size:14px;
+	font-family:"Century Gothic", Arial, Verdana;
+
+}
+
+input {
+	background:#E9D9BE;
+	width:180px;
+	height:31px;
+	float:left;	
+	border:none;
+}
+
+input[type="submit"] {
+	background:#FFA042;
+	width:31px;
+	height:38px;
+	margin-left:3px;
+	color:#FFF;
+	font-size:20px;	
+	font-family:"Century Gothic", Arial, Verdana;
+	
+}
+.rodape {
+	width:100%;
+	height:100px;
+	float:left;
+	/*background-color:#FF6;*/
+	border-bottom:#FFA042 15px solid;	
+}
+
+.rodape_menu {
+	margin-top:10px;
+	float:right;
+	width:650px;	
+	
+}
+
+.rodape p {
+	float:left;
+	color:#99837A;
+	font-size:13px;
+	font-weight:500;	
+	font-family:"Century Gothic", Arial, Verdana;
+	margin-top:25px;
+	
+}
+
+
+.rodape ul {
+	list-style-type:none;
+	margin:25px 0 0 3px;
+	padding:0 ;	
+	}
+
+.rodape li {
+	float:right;
+	padding:0 15px 0 15px;
+	background:url(img/barra.png) no-repeat 0 50%;
+	font-family:"Century Gothic", Arial, Verdana;
+	}
+		
+.rodape a {
+	font-size:13px;
+	color:#9A837C;
+	display:block;
+	font-weight:400;	
+}
+
+.rodape li:last-child {
+	background-image:none;	
+}
+
